@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaquries.css">
+</head>
+
+<body>
+
+  <nav id="desktop-nav">
+    <div class="logo"><a href="#profile">Hariharan R</a></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">HariharanR</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section_pic-container">
+      <img src="Image/HomeImg.png" alt="Hariharan's profile">
+    </div>
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Hariharan</h1>
+      <p class="section_text_p2">Prefinal year Computer Science Engineering student passionate about Java development<br> and eager to delve into the world of web development.<br>Exploring the intersection of creativity and functionality to build seamless digital experiences.</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./Resume/Resume.pdf')">Resume</button>
+
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+      </div>
+
+      <div id="socials-container">
+        <img 
+        src="Image/linkedin.png" 
+        alt="LinkedIn profile" 
+        class="icon" 
+        onclick="location.href='https://www.linkedin.com/in/hariharanr18/'"
+        />
+        <img 
+        src="Image/github.png" 
+        alt="Github profile" 
+        class="icon" 
+        onclick="location.href='https://github.com/HariR1893'"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+ 
+    <div class="about-text">
+      <h2>About Me</h2>
+      <h4>Java And Web development Enthusiast</h4>
+      <p>I am an enthusiastic pre-final year Computer Science and Engineering student with an insatiable curiosity for the world of technology. My journey as a budding developer has been guided by an unwavering passion for Java programming and web development. Driven by an inherent desire to create and explore, I am committed to constantly refining my skills in both realms.                
+        With a fervent commitment to lifelong learning and a heart that beats for Java development and web programming, I am poised to embark on a thrilling journey as a Java developer and a passionate advocate for the boundless possibilities of the web.</p>
+    </div>
+  </section>
+
+  
+  <section id="skills">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    
+    <div class="skill-details-container">
+      
+      <div class="about-containers">
+        
+        <div class="details-containers">
+          
+          <h2 class="skill-sub-title">
+            Frontend Development
+          </h2>
+          
+          <div class="article-container">
+            <article>
+              <img src="Image/html.png" alt="skill icon" class="icon">
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="Image/css.png" alt="skill icon" class="icon">
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="Image/javascript-icon-png-13.jpg" alt="skill icon" class="icon">
+              <div>
+                <h3>JAVASCRIPT</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          
+          </div>
+        </div>
+
+        <div class="details-containers">
+          
+          <h2 class="skill-sub-title">
+            Backend Development
+          </h2>
+          
+          <div class="article-container">
+            <article>
+              <img src="Image/java-logo-24.png" alt="skill icon" class="icon">
+              <div>
+                <h3>JAVA</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="Image/sql-server.png" alt="skill icon" class="icon">
+              <div>
+                <h3>SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="Image/python-logo-24.png" alt="skill icon" class="icon">
+              <div>
+                <h3>PYTHON</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="Image/c-plus-plus-logo-24.png" alt="skill icon" class="icon">
+              <div>
+                <h3>C/C++</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="Image/git-logo-24.png" alt="skill icon" class="icon">
+              <div>
+                <h3>GIT</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+      
+  <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      
+      <div class="contact-info-container">
+        <img src="Image/mail.png" alt="Mail" class="icon contact-icon email-icon">
+        <p><a href="mailto:hariramesh1893@gmail.com">hariramesh1893@gmail.com</a></p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="Image/linkedin.png" alt="LinkedIn" class="icon contact-icon linkedin-icon">
+        <p><a href="https://www.linkedin.com/in/hariharanr18/">HariharanR18</a></p>
+      </div>
+
+      
+    </div>
+  </section>
+  
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Hariharan R All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
