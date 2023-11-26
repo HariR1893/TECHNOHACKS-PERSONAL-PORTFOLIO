@@ -1,77 +1,48 @@
+# Personal Portfolio
 
-## CodSoft Web Development Internship - Task 2
+This is my personal portfolio website, showcasing my skills, projects, and experience. The portfolio is built using HTML, CSS, and JavaScript.
 
-Repository showcasing my completed projects and tasks during my Web Development internship at CODSOFT. Here, you'll find the code and documentation for the various assignments and projects I worked on, demonstrating my growth and skills as a Web development intern at CODSOFT.
+## Table of Contents
 
-## Personal Portfolio Website
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [License](#license)
 
-This is a beginner-friendly web development project where you can create your own personal portfolio website using HTML and CSS. This project will help you showcase your skills and projects, making it easier for potential employers or clients to learn more about you.
+## Demo
 
+You can view the live demo of my portfolio at [https://vercel.com/harir1893/technohacks-personal-portfolio](#).
 
-## Overview
+## Features
 
-### 1 Header Section
-Add your name or a logo at the top.
-Optionally, include a brief introduction or tagline to grab visitors' attention.
+- Responsive design for a seamless experience on different devices.
+- Sections for showcasing skills, projects, and a brief about me.
+- Contact form for easy communication.
+- Smooth scrolling and navigation.
+- Interactive elements using JavaScript.
 
-### 2 About Section
-Insert an image of yourself to personalize your portfolio.
-Write a short bio highlighting your skills, experience, and a bit about yourself.
+## Installation
 
-### 3 Skills Section
-List your key skills or areas of expertise.
-You can use icons or other visual elements to enhance this section.
+1. Clone the repository:
 
-### 4 Resume Section
-Provide a link to download your resume in PDF format.
-Ensure your resume highlights your relevant experience and qualifications.
+   ```bash
+   git clone https://github.com/HariR1893/TECHNOHACKS-PERSONAL-PORTFOLIO.git 
 
-### 5 Contact Section
-Include your contact information, such as email address and phone number.
-Optionally, you can add links to your social media profiles or a contact form.
+2. Change the directory
+   ```cd TECHNOHACKS-PERSONAL-PORTFOLIO```
 
-### 6 Footer
-Add a copyright notice to protect your content.
-Consider adding additional links, such as a link to your LinkedIn profile or GitHub repository.
+## Usage
+- Customize the content in the `index.html` file to reflect your personal information, skills, and projects.
+- Modify the styles in the `styles.css` file to match your preferred visual aesthetics.
+- Add your projects and update the JavaScript in `script.js` to enhance interactivity.
 
-## Getting Started
-
-To get started, clone the repository and install the dependencies.
-
-```
-git clone https://github.com/HariR1893/Portfolio-Website.git
-cd Portfolio-Website
-npm install
-```
-
-
-## Code Structure
-
-The code is structured as follows:
-
-* `index.html`: The main HTML file for the website.
-* `styles.css`: The CSS file for the website.
-* `script.js`: The JavaScript file for the website.
-* `mediaqueries.css`: The CSS file for media queries.
-
-## HTML
-
-The HTML file contains the basic structure of the website. It includes the `<head>` and `<body>` tags, as well as the content of the website.
-
-The `<head>` tag contains the title of the website, as well as links to the CSS and JavaScript files.
-
-The `<body>` tag contains the content of the website, which is divided into sections. Each section has a unique ID, which is used for styling and navigation.
-
-## CSS
-
-The CSS file contains the styles for the website. It includes styles for the text, headings, buttons, and other elements.
-
-The CSS file also includes media queries, which are used to adjust the layout of the website for different screen sizes.
-
-## JavaScript
-
-The JavaScript file contains the code for the website's interactivity. It includes code for the navigation menu, the contact form, and other features.
-
-## Conclusion
-
-This is a simple but effective portfolio website for a software engineer. It is easy to set up and customize, and it can be used to showcase your work and skills.
+## Customization
+- Feel free to customize the portfolio to suit your preferences:
+    1. Update colors, fonts, and layout in the `styles.css` file.
+    2. Add or remove sections in the `index.html` file.
+    3. Extend or modify functionality in the `script.js` file.
+ 
+## License
+This project is licensed under the 
